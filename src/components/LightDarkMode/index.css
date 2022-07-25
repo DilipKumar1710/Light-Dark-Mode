@@ -1,0 +1,42 @@
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+.heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+
+.button {
+  height: 40px;
+  width: 100px;
+}
+
+.changed-btn {
+  border-radius: 8px;
+}
+
+.normal-btn {
+  border-radius: 0;
+}
